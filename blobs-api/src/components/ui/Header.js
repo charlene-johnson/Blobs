@@ -86,7 +86,6 @@ function ElevationScroll(props) {
                 onChange={handleChange}
                 className={classes.tabContainer}
               >
-               
                   <Tab
                     className={classes.tab}
                     component={Link}
@@ -100,7 +99,6 @@ function ElevationScroll(props) {
                     to="/blobs"
                     label="Blobs"
                     />
-                )}
                 
               </Tabs>
             </Toolbar>
