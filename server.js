@@ -10,7 +10,7 @@ server.use(express.json())
 server.use("/api/blobs", blobsRouter)
 server.get("/", (req, res) => {
     res.json({
-        message: "Welcome to the Blob API",
+        message: "Welcome to the silly Blob API",
     })
 })
 
